@@ -20,3 +20,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/edit', function () {
+    return view('posts.edit');
+});
+
+Route::get('/index', function () {
+    return view('posts.index');
+});
+
+Route::get('/show', function () {
+    return view('posts.show');
+});
