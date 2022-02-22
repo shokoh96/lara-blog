@@ -1,6 +1,6 @@
-@extends('layouts.app_original');
+@extends('layouts.app_original')
 
-@section('content');
+@section('content')
 <div class="header-left">
   <img class="logo" src="./logo.png" alt="">
 </div>
@@ -27,4 +27,4 @@
     </div>
   </div>
 </div>
-@endsection;
+@endsection
