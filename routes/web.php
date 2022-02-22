@@ -33,4 +33,4 @@ Auth::routes();
 //     return view('posts.show');
 // });
 
-Route::get(’/comments, ‘CommentController@index’)->name(‘comments.index’);
+Route::get('/comments', 'CommentController@index')->name('comments.index');
