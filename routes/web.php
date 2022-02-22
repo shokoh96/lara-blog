@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 // Route::get('/edit', function () {
 //     return view('posts.edit');
@@ -33,4 +33,4 @@ Auth::routes();
 //     return view('posts.show');
 // });
 
-Route::get('/comments', 'CommentController@index')->name('comments.index');
+Route::get('/post', 'PostController@index')->name('posts.index');
