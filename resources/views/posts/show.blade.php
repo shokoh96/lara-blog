@@ -47,4 +47,5 @@
             </div>
         </div>
     </div>
+    <h1>日本語</h1>
 @endsection
